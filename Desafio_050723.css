@@ -1,0 +1,117 @@
+body{
+    background-color: #abceed;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    }
+
+.cabecalho{
+    background-image: url(imagens/fundo-abstrato.jpg);
+    height: 800px;
+    background-size: cover;
+    padding-top: 1px;
+    background-position: right center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.div-cabecalho{
+    /* background-color: #7EF2E7; */
+    margin: 250px auto 0 auto;
+    width: 80%;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.div-cabecalho h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    text-shadow: 3px 3px rgba(0, 0, 0, 0.5);
+}
+
+.div-cabecalho a{
+    background-color: #022340;
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    border-radius: 5px;
+    text-transform: uppercase;
+}
+
+.div-cabecalho a:hover{
+    background-color: white;
+    color: #022340;
+}
+
+.cabecalho nav ul{
+    /* background-color: #7EF2E7;*/
+    margin: 25px 40px 0 0;
+    text-align: right;
+}
+
+.cabecalho nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-left: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 12px;    
+}
+
+.cabecalho nav a{
+    color: white;
+    text-decoration: none;
+    background-color: #022340;
+    padding: 5px;
+    border-radius: 5px;
+
+}
+
+.cabecalho nav a:hover{
+    background-color: rgb(255, 255, 255);
+    color: #022340;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+}
+
+.rodape{
+    background-color: #023E73;
+    color: white;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px;
+
+}
+
+.artigo{
+    background-color: white;
+    padding: 10px;
+    text-align: justify;
+}
+
+.artigo-cabecalho{
+    background-color: #51aaf7;
+    text-align:center;
+    margin: 25px auto 0 auto;
+    color: #023562;    
+}
+
+.img-html{
+    float: left;
+    width: 40px;
+    padding: 10px;
+    transition: transform 0.3s; /* Transição suave ao aplicar o zoom */
+}
+
+
+.img-html:hover{
+   /* float: left;
+    width: 50px;
+    padding: 10px; */
+    transform: scale(1.5); /* Aumentará em 1,5 vezes o tamanho original */
+
+}
